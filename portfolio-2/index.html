@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nidhi Vora - Computational Finance & Risk Management and CS Student Portfolio">
+    <title>Nidhi Vora - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="profile">
+                <div class="profile-avatar">NV</div>
+                <h1 class="profile-name">Nidhi Vora</h1>
+                <p class="profile-title">Computational Finance & Risk Management and CS Student</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#internship" class="nav-item">Internship</a>
+                <a href="#resume" class="nav-item">Resume</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="social-links">
+                <a href="https://github.com/nidhi1vora" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/nidhi-vora-3039812a8/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                <a href="mailto:nidhi1vora@gmail.com" class="social-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="section-content">
+                <div class="intro">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name-large">Nidhi Vora</h1>
+                    <h2 class="role">Computational Finance & Risk Management and CS Student</h2>
+                    <p class="intro-text">
+                        I'm genuinely fascinated by quantitative finance, the part where math, data, and markets all collide. 
+                        Lately, my days are a mix of LeetCode problem grinding, watching how the markets move, and trying to make sense of quant research papers.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="jakes-resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2 class="section-heading">About</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm Nidhi, a second-year (with senior standing) at the University of Washington, and I'm genuinely fascinated by quantitative finance, the part where math, data, and markets all collide. Lately, my days are a mix of LeetCode problem grinding, watching how the markets move, and trying to make sense of quant research papers (some days it makes sense, some days it definitely doesn't, but ig that's the fun of it).
+                        </p>
+                        <p>
+                            Each year, I like to pick one personal challenge outside academics, something that pushes me in a different way. This year, I'm training to qualify for US Nationals in club swimming (fingers crossed). It keeps me grounded, teaches discipline, and reminds me growth isn't just academic.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Quantitative Finance</span>
+                            <span class="skill-tag">Monte Carlo Simulation</span>
+                            <span class="skill-tag">Options Pricing</span>
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">Algorithms</span>
+                            <span class="skill-tag">SciPy</span>
+                            <span class="skill-tag">NetworkX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2 class="section-heading">Projects</h2>
+                <div class="projects-list">
+                    <article class="project-item">
+                        <div class="project-header">
+                            <h3>Spam Classifier <span style="color: var(--text-muted); font-size: 1rem; font-weight: normal;">Jan 2025</span></h3>
+                            <div class="project-links">
+                                <a href="https://github.com/nidhi1vora" class="project-link-icon" aria-label="GitHub">🔗</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built a decision-tree classifier achieving 90%+ accuracy in testing on 5000 emails. Optimized feature selection using word probability analysis (future: TF-IDF integration), reducing false positives by 15% versus baseline. Designed a CLI tool with train/test/save workflows, processing 1,000+ emails from CSV datasets with robust error handling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Machine Learning</span>
+                            <span class="tech-badge">Decision Trees</span>
+                            <span class="tech-badge">Data Processing</span>
+                        </div>
+                    </article>
+
+                    <article class="project-item">
+                        <div class="project-header">
+                            <h3>Stock Recommendation System <span style="color: var(--text-muted); font-size: 1rem; font-weight: normal;">Jun 2025</span></h3>
+                            <div class="project-links">
+                                <a href="https://github.com/nidhi1vora" class="project-link-icon" aria-label="GitHub">🔗</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built recommender using Twitter API data (3K+ posts) with cosine similarity, achieving 90% backtest accuracy. Automated ticker extraction via regex/X API, validating 100+ stocks with Yahoo Finance fundamentals. Designed 3-tier engine ("Buy"/"Weak Buy"/"Avoid") using price/sentiment clusters, verified via NetworkX graphs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Twitter API</span>
+                            <span class="tech-badge">NetworkX</span>
+                            <span class="tech-badge">Sentiment Analysis</span>
+                            <span class="tech-badge">Financial Data</span>
+                        </div>
+                    </article>
+
+                    <article class="project-item">
+                        <div class="project-header">
+                            <h3>Options Price Model <span style="color: var(--text-muted); font-size: 1rem; font-weight: normal;">Sept 2025</span></h3>
+                            <div class="project-links">
+                                <a href="https://github.com/nidhi1vora" class="project-link-icon" aria-label="GitHub">🔗</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built a Python Monte Carlo simulator for the Heston model, simulating 100K+ paths to improve option pricing accuracy over Black-Scholes. Calibrated model parameters to market option data with SciPy, minimizing pricing error. Backtested against historical SPY option chains and stress-tested volatility/correlation shocks, achieving 12% lower RMSE.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Monte Carlo</span>
+                            <span class="tech-badge">Heston Model</span>
+                            <span class="tech-badge">SciPy</span>
+                            <span class="tech-badge">Options Pricing</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section id="internship" class="section">
+            <div class="section-content">
+                <h2 class="section-heading">Internship</h2>
+                <div class="projects-list">
+                    <article class="project-item">
+                        <div class="project-header">
+                            <h3>Magtapp <span style="color: var(--text-muted); font-size: 1rem; font-weight: normal;">Jun 2024 – Sept 2024</span></h3>
+                            <p style="color: var(--text-secondary); margin: 0;">Data Analyst | Mumbai, India</p>
+                        </div>
+                        <p class="project-description">
+                            • Optimized ad placement algorithms by analyzing 5K+ user interactions with SQL/Python, increasing CTR by 8% for brand campaigns.<br>
+                            • Supported AI training by cleaning 10K+ search query logs for the visual meaning feature.<br>
+                            • Collaborated with partners to design SQL-powered dashboards tracking engagement metrics, aligning 10+ partners on performance KPIs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">SQL</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Data Analysis</span>
+                            <span class="tech-badge">Dashboard Design</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <div class="section-content">
+                <h2 class="section-heading">Resume</h2>
+                <div class="resume-card">
+                    <p>Want to learn more about my experience, education, and skills?</p>
+                    <a href="jakes-resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2 class="section-heading">Get In Touch</h2>
+                <div class="contact-card">
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just connecting with fellow developers!</p>
+                    <div class="contact-info">
+                        <a href="mailto:nidhi1vora@gmail.com" class="contact-item">
+                            <strong>Email:</strong> nidhi1vora@gmail.com
+                        </a>
+                        <a href="https://github.com/nidhi1vora" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <strong>GitHub:</strong> github.com/nidhi1vora
+                        </a>
+                        <a href="https://www.linkedin.com/in/nidhi-vora-3039812a8/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <strong>LinkedIn:</strong> linkedin.com/in/nidhi-vora-3039812a8
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Nidhi Vora. Built with HTML, CSS, and JavaScript.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
